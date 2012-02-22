@@ -16,7 +16,7 @@ namespace NewsFeedInput
             {
                 if (txtTitle.Text == "" || txtDescription.Text == "")
                 {
-                    headerTag.InnerHtml = "Coleman Universty<br />There Are Errors In Your Channel";
+                    headerTag.InnerHtml = "Coleman University<br />There Are Errors In Your Channel";
                     if (txtTitle.Text == "")
                     {
                         lblTitleError.Text = "The title is required!";
@@ -49,13 +49,13 @@ namespace NewsFeedInput
                                     new XElement("description", new XCData(txtDescription.Text)))));
                         feed.Save(@"C:\Users\Student3\Desktop\NewsWriter\datafiles\" + txtTitle.Text + ".xml");
 
-                        headerTag.InnerHtml = "Coleman Universty<br />Congratulations! You successfully made a new channel!";
+                        headerTag.InnerHtml = "Coleman University<br />Congrats! You successfully made a new channel!";
                         txtTitle.Text = "";
                         txtDescription.Text = "";
                     }
                     catch (Exception error)
                     {
-                        headerTag.InnerHtml = "Coleman Universty<br />Oh No! Error: " + error.Message;
+                        headerTag.InnerHtml = "Coleman University<br />Oh No! Error: " + error.Message;
                         txtTitle.Text = "";
                         txtDescription.Text = "";
                     }

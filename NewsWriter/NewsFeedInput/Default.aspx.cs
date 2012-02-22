@@ -24,7 +24,7 @@ namespace NewsFeedInput
             {
                 if (drpChannels.SelectedIndex < 0 || txtHeadline.Text == "" || txtDescription.Text == "")
                 {
-                    headerTag.InnerHtml = "Coleman Universty<br />There Are Errors In Your Article!";
+                    headerTag.InnerHtml = "Coleman University<br />There Are Errors In Your Article!";
 
                     if (drpChannels.SelectedIndex < 0)
                     {
@@ -102,13 +102,13 @@ namespace NewsFeedInput
                         feed.Save(filePaths[drpChannels.SelectedIndex]);
 
                         // Inform user of success
-                        headerTag.InnerHtml = "Coleman Universty<br />Congratulation! You made a new article!";
+                        headerTag.InnerHtml = "Coleman University<br />Congrats! You made a new article!";
                         txtHeadline.Text = "";
                         txtDescription.Text = "";
                     }
                     catch (Exception error)
                     {
-                        headerTag.InnerHtml = "Coleman Universty<br />Oh No!<br />Error: " + error.Message;
+                        headerTag.InnerHtml = "Coleman University<br />Oh No!<br />Error: " + error.Message;
                     }
                 }
             }
