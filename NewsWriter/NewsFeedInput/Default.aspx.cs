@@ -93,8 +93,10 @@ namespace NewsFeedInput
                         XElement link = new XElement("link", "");
                         XElement title = new XElement("title", new XCData(strHeadline));
                         XElement item = new XElement("item", "");
+                        XElement pubDate = new XElement("pubDate", DateTime.Today.Month.ToString() +"/"+DateTime.Today.Day.ToString()+"/"+DateTime.Today.Year.ToString());
                         // Place Elements
                         item.AddFirst(desc);
+                        item.AddFirst(pubDate);
                         item.AddFirst(link);
                         item.AddFirst(title);
                         feed.Element("rss").Element("channel").Element("description").AddAfterSelf(item);
