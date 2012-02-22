@@ -1,0 +1,132 @@
+﻿body
+{
+    background-color:#DDD;
+    font-family:Arial;
+}
+.app
+{
+    width:70%;
+    margin: 0px 10% auto;
+    background-color:#3465BA;
+    display:inline-block;
+    border:5px solid #FFD700;
+    padding: 25px 25px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px #AAA;
+}
+
+.header
+{
+    /*font-family: Minion Pro;*/
+    font-family:Minion Web Bold;
+    width:70%;
+    margin: 0px auto;
+}
+
+.siteMap
+{
+    clear:left;
+    width:60%;
+    /*border:1px solid #FFD700;*/
+    margin: auto;
+    padding: 20px 25px;
+}
+
+.content
+{
+    width: 70%;
+    border: 3px solid #FFD700;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px #2354A9;
+}
+
+.howTo
+{
+    float:right;
+}
+
+img
+{
+    float:left;
+}
+
+a:link, a:visited
+{
+    color:White;
+    margin:5px 2px;
+}
+
+a:hover
+{
+    color:#FFD700;
+    /*background-color:#4576CB;*/
+}
+
+p
+{
+    color:White;
+    padding:0px 25px;
+    text-align:left;
+}
+
+ul
+{
+    margin:0px;
+    text-align:center;
+}
+
+li
+{
+    display:inline-block;
+    padding: 3px;
+    text-align:center;
+}
+
+#headerTag
+{
+    color:White; 
+    padding: 30px 0px;
+    margin: auto;
+    float:left;
+}
+
+#txtDescription
+{
+    height:150px;
+    width:255px;
+}
+
+#btnSubmit
+{
+    background-color:#3465BA;
+    color:White;
+    border: 2px solid #FFD700;
+    border-radius: 50px;
+}
+
+#btnDelete
+{
+    background-color:#3465BA;
+    color:White;
+    border: 2px solid #FFD700;
+    border-radius: 50px;
+}
+
+#lblChannelError
+{
+    color:Red;
+    margin-bottom:0px;
+}
+
+#lblTitleError
+{
+    color:Red;
+    margin-bottom:0px;
+}
+
+#lblDescriptionError
+{
+    color:Red;
+    margin-bottom:0px;
+}

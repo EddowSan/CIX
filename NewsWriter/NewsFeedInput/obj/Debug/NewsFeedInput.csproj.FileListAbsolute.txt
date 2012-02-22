@@ -1,0 +1,10 @@
+F:\NewsFeedInput\NewsFeedInput\bin\NewsFeedInput.dll
+F:\NewsFeedInput\NewsFeedInput\bin\NewsFeedInput.pdb
+F:\NewsFeedInput\NewsFeedInput\obj\Debug\ResolveAssemblyReference.cache
+F:\NewsFeedInput\NewsFeedInput\obj\Debug\NewsFeedInput.dll
+F:\NewsFeedInput\NewsFeedInput\obj\Debug\NewsFeedInput.pdb
+E:\NewsFeedInput\NewsFeedInput\bin\NewsFeedInput.dll
+E:\NewsFeedInput\NewsFeedInput\bin\NewsFeedInput.pdb
+E:\NewsFeedInput\NewsFeedInput\obj\Debug\ResolveAssemblyReference.cache
+E:\NewsFeedInput\NewsFeedInput\obj\Debug\NewsFeedInput.dll
+E:\NewsFeedInput\NewsFeedInput\obj\Debug\NewsFeedInput.pdb
