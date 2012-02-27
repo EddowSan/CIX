@@ -1,0 +1,5 @@
+E:\NewsFeedInput\NewsFeedInput\bin\NewsFeedInput.dll
+E:\NewsFeedInput\NewsFeedInput\bin\NewsFeedInput.pdb
+E:\NewsFeedInput\NewsFeedInput\obj\Debug\ResolveAssemblyReference.cache
+E:\NewsFeedInput\NewsFeedInput\obj\Debug\NewsFeedInput.dll
+E:\NewsFeedInput\NewsFeedInput\obj\Debug\NewsFeedInput.pdb

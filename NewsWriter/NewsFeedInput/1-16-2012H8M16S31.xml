@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "no"?>
+
+<rss version="2.0">
+	<channel>
+		<item>
+			<title>Hello World</title>
+			<link></link>
+			<description><![CDATA[A now normal RSS feed]]></description>
+		</item>
+	</channel>
+</rss>
