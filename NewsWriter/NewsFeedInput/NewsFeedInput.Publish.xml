@@ -2,13 +2,14 @@
 <publishData>
   <publishProfile publishUrl="localhost:8080" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="Default.aspx" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="Profile1" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="False" />
   <publishProfile publishUrl="C:\Users\Student3\Desktop\NewsWriter" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="News" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="NewWriter" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
-    <file relUrl="Web.config" publishTime="02/08/2012 10:47:28" />
+    <file relUrl="Web.config" publishTime="02/27/2012 08:03:24" />
     <file relUrl="Images/CU_logo_stacked.jpg" publishTime="01/12/2012 11:24:14" />
     <file relUrl="Web.sitemap" publishTime="02/08/2012 08:55:36" />
-    <file relUrl="App_Themes/Coleman/StyleSheet1.css" publishTime="02/15/2012 10:00:14" />
-    <file relUrl="bin/NewsFeedInput.dll" publishTime="02/22/2012 11:21:02" />
+    <file relUrl="App_Themes/Coleman/StyleSheet1.css" publishTime="02/23/2012 08:31:11" />
+    <file relUrl="bin/NewsFeedInput.dll" publishTime="02/27/2012 08:08:40" />
     <file relUrl="Images/tv.png" publishTime="02/13/2012 09:44:52" />
-    <file relUrl="bin/NewsFeedInput.pdb" publishTime="02/22/2012 11:21:02" />
+    <file relUrl="bin/NewsFeedInput.pdb" publishTime="02/27/2012 08:08:40" />
+    <file relUrl="Login.aspx" publishTime="02/27/2012 07:37:24" />
     <file relUrl="Images/logo.png" publishTime="02/13/2012 11:39:42" />
     <file relUrl="AddChannel.aspx" publishTime="02/15/2012 10:14:56" />
     <file relUrl="Images/Coleman_logo_2color.gif" publishTime="01/12/2012 11:25:02" />

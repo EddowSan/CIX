@@ -22,7 +22,7 @@ namespace NewsFeedInput
             string[] fileNames = filePaths;
             if (IsPostBack)
             {
-                if (drpChannels.SelectedIndex < 0 || txtHeadline.Text == "" || txtDescription.Text == "")
+                if (drpChannels.SelectedIndex < 0 || txtHeadline.Text == "" || txtHeadline.Text.Length > 85 || txtDescription.Text == "" || txtDescription.Text.Length > 50)
                 {
                     headerTag.InnerHtml = "Coleman University<br />There Are Errors In Your Article!";
 
@@ -38,6 +38,10 @@ namespace NewsFeedInput
                     {
                         lblTitleError.Text = "The headline is required!";
                     }
+                    else if (txtHeadline.Text.Length > 50)
+                    {
+                        lblTitleError.Text = "The headline is too long!";
+                    }
                     else
                     {
                         lblTitleError.Text = "";
@@ -45,6 +49,10 @@ namespace NewsFeedInput
                     if (txtDescription.Text == "")
                     {
                         lblDescriptionError.Text = "The description is required!";
+                    }
+                    else if (txtDescription.Text.Length > 85)
+                    {
+                        lblDescriptionError.Text = "The Description id too long!";
                     }
                     else
                     {

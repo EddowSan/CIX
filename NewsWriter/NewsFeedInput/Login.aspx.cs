@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using MySql.Data.MySqlClient;
 using System.Data.SqlClient;
 using System.Configuration;
+using System.Web.Security;
 
 namespace NewsFeedInput
 {
@@ -16,7 +17,10 @@ namespace NewsFeedInput
         {
             if (IsPostBack == true)
             {
-                ValidateUser();
+                if (ValidateUser())
+                    FormsAuthentication.RedirectFromLoginPage(txtUserName.Text, true);
+                else
+                    Response.Redirect("logon.aspx", true);
             }
         }
 
@@ -44,7 +48,7 @@ namespace NewsFeedInput
 
             comm = new MySqlCommand("SELECT Password FROM Users WHERE UserName = @UserName", conn);
             comm.Parameters.Add("@UserName", MySqlDbType.VarChar);
-            comm.Parameters["@UserName"].Value = txtUserName;
+            comm.Parameters["@UserName"].Value = txtUserName.Text;
 
             try
             {
